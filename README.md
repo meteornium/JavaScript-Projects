@@ -1,2 +1,2 @@
 # JavaScript-Projects
-Collection of JS work from TTA
+Collection of JS work from The Tech Academy's JavaScript course.
