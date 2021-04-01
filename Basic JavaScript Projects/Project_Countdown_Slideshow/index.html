@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="JS/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <title>Countdown Project</title>
+    </head>
+
+    <body onload="showSlides(slideIndex)">
+
+        <div class="timerBox">
+            <div class="center">
+                <p class="timeset">How many seconds would you like to set your alarm for?</p>
+                <input class="input" id="seconds" value="" />
+                <br>
+                <button class="button" onclick="countdown()">Begin timer</button>
+                <br>
+                <div class="numbers">
+                    <p class="timer" id="timer"></p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/slide1.png" style="width:100%">
+                <div class="text">Milky Way</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/slide2.png" style="width:100%">
+                <div class="text">Colorful Nebula</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/slide3.png" style="width:100%">
+                <div class="text">Supernova</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </body>
+</html>

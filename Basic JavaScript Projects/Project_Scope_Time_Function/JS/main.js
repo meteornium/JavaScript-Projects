@@ -20,7 +20,7 @@ function myFunction() {
     var age = document.getElementById("age").value;
     if (age > 22) {
         document.getElementById("older").innerHTML = "You are older than me!";
-    } else if (age ==  22) {
+    } else if (age == 22) {
         document.getElementById("same").innerHTML = "We are the same age!";
     } else {
         document.getElementById("younger").innerHTML = "You are younger than me!";
