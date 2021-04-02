@@ -1,4 +1,5 @@
-function callLoop() { // prints all the numbers in the counter (since it's document write, i think it overrides the other buttons, so when its button is pressed, all others go away)
+// prints all the numbers in the counter (since it's document write, i think it overrides the other buttons, so when its button is pressed, all others go away)
+function callLoop() { 
     var counter;
     var num;
     for (counter = 1; counter <= 10; counter++) {
@@ -58,4 +59,3 @@ function letObject() {
     casey.birthday = "June 20";
     document.getElementById("let").innerHTML = casey.birthday;
 }
-
