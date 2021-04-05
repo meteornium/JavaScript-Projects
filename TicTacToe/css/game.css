@@ -38,5 +38,20 @@ canvas {
 
 .header {
     text-align: center;
-    color: purple;
+}
+
+.header:before {
+    content: "LET'S PLAY ";
+    color: rgb(0, 0, 0);
+}
+
+.header:after {
+    content: "TIC TAC TOE!";
+    color: white;
+}
+
+.container {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    max-width: 500px;
+    margin: auto;
 }
