@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- bringing in jquery library for further use -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+
+    <script>
+
+        // this is executed when the page is loaded. pushes a body element onto the page
+        $(document).ready(function() {
+            $("html").append(
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Basic jQuery</h1>\
+                            <p id='c1'>Paragraph 1</p>\
+                            <p id='c2'>Paragraph 2</p>\
+                            <p id='c3'>Paragraph 3</p>\
+                        </div>\
+                    </div>\
+                </body>"
+            );
+
+            // changes para2 to red
+            $("#c2").css({"color":"red"})
+
+            // hides the header when para3 is clicked
+            $("#c3").click(function() {
+                $('h1').hide();
+            })
+
+        });
+
+
+
+
+    </script>
+</html>
