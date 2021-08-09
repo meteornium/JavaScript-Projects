@@ -1,5 +1,5 @@
 # JavaScript-Projects
-Collection of JS work from The Tech Academy's JavaScript course.
+Collection of personal JavaScript work.
 
 ## Projects
 
